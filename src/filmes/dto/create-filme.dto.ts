@@ -20,9 +20,11 @@ export class CreateFilmeDto {
   @IsString()
   tempdura: string;
 
+  @IsNotEmpty()
   @IsInt()
   generoid: number;
 
+  @IsNotEmpty()
   @IsInt()
   participanteid: number;
 
